@@ -109,7 +109,7 @@ if __name__ == "__main__":
     random = False
     number_of_gaussian = 3
     number_of_samples = 200
-    num_of_iteration = 50
+    num_of_iteration = 100
     samples = create_MoG_samples(number_of_samples, number_of_gaussian, mu, sigma, a, display)
     for i in range(2):
         estimated_a, estimated_mu, estimated_sigma, estimated_Lk = EM_MoG(samples, number_of_gaussian, number_of_samples, num_of_iteration, a, mu, sigma, random=random)

@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce65228-b7f9-4042-ac73-4f64a73ad515" name="Changes" comment="adddd ex1">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/פתרונות.iml" beforeDir="false" />
+    <list default="true" id="5ce65228-b7f9-4042-ac73-4f64a73ad515" name="Changes" comment="add plot">
+      <change afterPath="$PROJECT_DIR$/EM algorithm for MoG/Initialized parameters are random.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EM algorithm for MoG/Initialized parameters are the true parameters.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EM algorithm for MoG/EM algorithm for MoG .py" beforeDir="false" afterPath="$PROJECT_DIR$/EM algorithm for MoG/EM algorithm for MoG .py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EM algorithm for MoG" />
   </component>
   <component name="RunManager" selected="Python.EM algorithm for MoG  (1)">
     <configuration name="EM algorithm for MoG  (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -111,7 +103,7 @@
       <workItem from="1635160852128" duration="7864000" />
       <workItem from="1635194192785" duration="35435000" />
       <workItem from="1635874815370" duration="384000" />
-      <workItem from="1635875227015" duration="2922000" />
+      <workItem from="1635875227015" duration="3332000" />
     </task>
     <task id="LOCAL‎00001" summary="add ex1">
       <created>1635874893155</created>
@@ -131,7 +123,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1635875387204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="add plot">
+      <created>1635878186101</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1635878186101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add ex1" />
     <MESSAGE value="adddd ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="adddd ex1" />
+    <MESSAGE value="add plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,7 +171,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$EX1.coverage" NAME="EX1 Coverage Results" MODIFIED="1635163348763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EX1_py$EM_algorithm_for_MoG___1_.coverage" NAME="EM algorithm for MoG  (1) Coverage Results" MODIFIED="1635878139205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EM algorithm for MoG" />
+    <SUITE FILE_PATH="coverage/EX1_py$EM_algorithm_for_MoG___1_.coverage" NAME="EM algorithm for MoG  (1) Coverage Results" MODIFIED="1635878381231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EM algorithm for MoG" />
     <SUITE FILE_PATH="coverage/EX1_py$EX1.coverage" NAME="EX1 Coverage Results" MODIFIED="1635352692363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EX1_py$EM_algorithm_for_MoG_.coverage" NAME="EM algorithm for MoG  Coverage Results" MODIFIED="1635876402572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
