@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ce65228-b7f9-4042-ac73-4f64a73ad515" name="Changes" comment="add plot">
-      <change afterPath="$PROJECT_DIR$/EM algorithm for MoG/Initialized parameters are random.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EM algorithm for MoG/Initialized parameters are the true parameters.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EM algorithm for MoG/EM algorithm for MoG .py" beforeDir="false" afterPath="$PROJECT_DIR$/EM algorithm for MoG/EM algorithm for MoG .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EM algorithm for MoG/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EM algorithm for MoG" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RunManager" selected="Python.EM algorithm for MoG  (1)">
     <configuration name="EM algorithm for MoG  (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -103,7 +102,7 @@
       <workItem from="1635160852128" duration="7864000" />
       <workItem from="1635194192785" duration="35435000" />
       <workItem from="1635874815370" duration="384000" />
-      <workItem from="1635875227015" duration="3332000" />
+      <workItem from="1635875227015" duration="12752000" />
     </task>
     <task id="LOCAL‎00001" summary="add ex1">
       <created>1635874893155</created>
@@ -129,7 +128,13 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1635878186101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎00005" summary="add plot">
+      <created>1635878621151</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1635878621151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
