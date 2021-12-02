@@ -4,7 +4,7 @@ z<sub>t</sub> = Az<sub>t</sub> + v<sub>t</sub>, observation = x<sub>t</sub> = po
 with v<sub>t</sub>~N(0, Q), w<sub>t</sub>~N(0, R),
 I got the following result:
 <p align="center">
-  <img src="C:\Users\HP\OneDrive - Bar-Ilan University\אוניברסיטה\תואר שני\סמסטר ג\(83841) למידת מכונה סטטיסטית\תרגילים\Solutions\Kalman Filter\position vs time.png" alt="true parameters">
+  <img src="\Kalman Filter\position vs time.png" alt="true parameters">
 </p>
 As we can see The MSE is reduced by 3.17 times when the Kalman filter is applied as opposed to just using the observation
 
