@@ -51,18 +51,21 @@ class Grid:
     def get_grid(self):
         return self.grid
 
-def generate_data(grid: Grid, configuration_num):
+def generate_data_x(grid: Grid, configuration_num):
     """Generate samples sampled from 5x5 grid binary 0-1 MRF"""
     grid.do_configuration(configuration_num)
     grid.update_grid_all() #one more time after the configuration
     sampled_data = grid.get_grid()
     return sampled_data
 
+def generate_data_y(sampled_data_x):
+    pass
 
 if __name__ == '__main__':
     height = 5
     width = 5
     possbile_entries = [0, 1] #binary
     configuration_num = 1000
-    grid = Grid(height, width, possbile_entries)
-    sampled_data = generate_data(grid, configuration_num)
+    x_grid = Grid(height, width, possbile_entries)
+    sampled_data_x = generate_data_x(x_grid, configuration_num)
+    sampled_data_y = generate_data_y(sampled_data_x)
