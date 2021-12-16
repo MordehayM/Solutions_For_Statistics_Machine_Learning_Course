@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-def generate_data(num_of_samples):
-    """Generate samples sampled from 5x5 grid binary 0-1 MRF"""
-
 
 def get_neighbors(array, indx: list, width, height):
     row = indx[0]
@@ -28,9 +25,44 @@ def sample_xi_given_other(possbile_entries, xi_prob_given_other):
     return sampled_value
 
 class Grid:
+    def __init__(self, height, width, possbile_entries):
+        self.possbile_entries = possbile_entries
+        self.height = height
+        self.width = width
+        self.grid = np.random.choice(a=possbile_entries, size=(height, width))
 
-def update_grid(grid, indx, new_value):
-    row = indx[0]
-    column = indx[1]
-    grid[row, column] = new_value
-    return grid
+    def update_grid_xi(self, indx, new_value):
+        row = indx[0]
+        column = indx[1]
+        self.grid[row, column] = new_value
+    def update_grid_all(self):
+        indexes_serial = np.arange(self.height * self.width)
+        for indx_serial in indexes_serial:
+            row = indx_serial // self.height
+            column = indx_serial // self.width
+            indx = [row, column]
+            xi_prob_given_other = get_xi_prob_given_other(self.grid, indx, self.possbile_entries)
+            sampled_value = sample_xi_given_other(self.possbile_entries, xi_prob_given_other)
+            self.update_grid_xi(indx, sampled_value)
+
+    def do_configuration(self, configuration_num=1000):
+        for num in configuration_num:
+            self.update_grid_all()
+    def get_grid(self):
+        return self.grid
+
+def generate_data(grid: Grid, configuration_num):
+    """Generate samples sampled from 5x5 grid binary 0-1 MRF"""
+    grid.do_configuration(configuration_num)
+    grid.update_grid_all() #one more time after the configuration
+    sampled_data = grid.get_grid()
+    return sampled_data
+
+
+if __name__ == '__main__':
+    height = 5
+    width = 5
+    possbile_entries = [0, 1] #binary
+    configuration_num = 1000
+    grid = Grid(height, width, possbile_entries)
+    sampled_data = generate_data(grid, configuration_num)

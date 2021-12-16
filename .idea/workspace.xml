@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfaf568e-50e6-42fc-a630-2feb7c2476e0" name="Changes" comment="arrange readme">
-      <change afterPath="$PROJECT_DIR$/MRF/MRF_With_Gibbs.py" afterDir="false" />
+    <list default="true" id="dfaf568e-50e6-42fc-a630-2feb7c2476e0" name="Changes" comment="begin generate through gibbs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MRF/MRF_With_Gibbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/MRF/MRF_With_Gibbs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638383315064</updated>
       <workItem from="1638383316242" duration="21009000" />
-      <workItem from="1639595069134" duration="6538000" />
+      <workItem from="1639595069134" duration="8878000" />
     </task>
     <task id="LOCAL‎00001" summary="add kalman filter anf readme">
       <created>1638440021638</created>
@@ -112,7 +112,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1638440392805</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="begin generate through gibbs">
+      <created>1639612133874</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1639612133874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add kalman filter anf readme" />
     <MESSAGE value="arrange readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrange readme" />
+    <MESSAGE value="begin generate through gibbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin generate through gibbs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Solutions$tr.coverage" NAME="tr Coverage Results" MODIFIED="1638402269333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kalman Filter" />
