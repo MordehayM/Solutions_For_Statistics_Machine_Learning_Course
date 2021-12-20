@@ -29,9 +29,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Kalman Filter/position vs time.png" />
   </component>
-  <component name="RunManager" selected="Python.kalman">
+  <component name="RunManager" selected="Python.MRF_With_Gibbs">
+    <configuration name="MRF_With_Gibbs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MRF" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MRF/MRF_With_Gibbs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="kalman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MRF_With_Gibbs" />
         <item itemvalue="Python.kalman" />
         <item itemvalue="Python.tr" />
       </list>
@@ -92,7 +120,10 @@
       <option name="presentableId" value="Default" />
       <updated>1638383315064</updated>
       <workItem from="1638383316242" duration="21009000" />
-      <workItem from="1639595069134" duration="9088000" />
+      <workItem from="1639595069134" duration="38621000" />
+      <workItem from="1639945493613" duration="3835000" />
+      <workItem from="1639949414963" duration="23000" />
+      <workItem from="1639953815551" duration="5324000" />
     </task>
     <task id="LOCAL‎00001" summary="add kalman filter anf readme">
       <created>1638440021638</created>
@@ -124,7 +155,13 @@
       <option name="presentableId" value="LOCAL‎00005" />
       <updated>1639614473726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎00006" summary="finish sample from p(x)">
+      <created>1639614672963</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1639614672963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +187,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="finish sample from p(x)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MRF_With_Gibbs_py$MRF_With_Gibbs.coverage" NAME="MRF_With_Gibbs Coverage Results" MODIFIED="1639954314607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MRF" />
     <SUITE FILE_PATH="coverage/Solutions$tr.coverage" NAME="tr Coverage Results" MODIFIED="1638402269333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kalman Filter" />
     <SUITE FILE_PATH="coverage/Solutions$kalman.coverage" NAME="kalman Coverage Results" MODIFIED="1638439859085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kalman Filter" />
+    <SUITE FILE_PATH="coverage/kalman_py$MRF_With_Gibbs.coverage" NAME="MRF_With_Gibbs Coverage Results" MODIFIED="1639705089871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MRF" />
   </component>
 </project>
