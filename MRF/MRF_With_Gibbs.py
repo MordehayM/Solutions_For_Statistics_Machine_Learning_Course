@@ -338,12 +338,12 @@ if __name__ == '__main__':
     #num_estimation = 10000
     SE_gibbs = [] #square error
     
-    for num_estimation in tqdm(range(1, 10, 1)):
+    for num_estimation in tqdm(range(100, 1000, 100)):
         prob = gibbs.calc_estimated_probability(sampled_data_y, configuration_num, num_estimation)
-        square_error = np.sum((true_prob - prob)**2)
+        square_error = np.sum((true_prob - prob[1, :, :])**2)
         SE_gibbs.append(square_error)
         print("*******************************")
-    plot_error(range(1, 10, 1), SE_gibbs, 'Gibbs', 'estimation', 'Num of estimation', 'SE_gibbs')
+    plot_error(range(100, 1000, 100), SE_gibbs, 'Gibbs', 'estimation', 'Num of estimation', 'SE_gibbs')
     logger.info(f"THe estimated Gibbs probability p(x=1|y) = {prob}")
 
     KL = []
