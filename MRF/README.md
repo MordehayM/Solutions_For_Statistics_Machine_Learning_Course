@@ -60,5 +60,5 @@ On the same way I examined the effect of the number of MF's iteration on both th
 <p align="center">
   <img src="C:\Users\HP\OneDrive - Bar-Ilan University\אוניברסיטה\תואר שני\סמסטר ג\(83841) למידת מכונה סטטיסטית\תרגילים\Solutions\MRF\Error of KL vs Num of iteration.png" alt="true parameters">
 </p> 
-dvd
+
 
