@@ -36,7 +36,7 @@ By appling Gibbs sampling (with 1000 estimates) I got the following results:
 Next, I examined the influence of the number of estimates of Gibbs sampling(the number of samples to mean over) and got the following plot:
 
 <p align="center">
-  <img src="Error of Gibbs vs Num of estimation.png" alt="true parameters">
+  <img src="Error of Gibbs vs Num of estimation.png" alt="drawing" width="400">
 </p>
 
 
@@ -53,7 +53,7 @@ On the same way I examined the effect of the number of MF's iteration on both th
 
 <ins>MSE</ins> - 
 <p align="center">
-  <img src="Error of Mean Field vs Num of iteration.png" alt="true parameters">
+  <img src="Error of Mean Field vs Num of iteration.png" alt="drawing" width="400">
 </p>
 
 <ins>KL</ins> - 
