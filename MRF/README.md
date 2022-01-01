@@ -58,7 +58,7 @@ On the same way I examined the effect of the number of MF's iteration on both th
 
 <ins>KL</ins> - 
 <p align="center">
-  <img src="Error of KL vs Num of iteration.png" alt="true parameters">
+  <img src="Error of KL vs Num of iteration.png" alt="drawing" width="200">
 </p> 
 
 
